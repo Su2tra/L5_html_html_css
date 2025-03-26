@@ -1,0 +1,60 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: dashed red;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.highlight {
+    background-color: yellow;
+    padding: 5px;
+}
+
+#special {
+    font-weight: bold;
+    color: red;
+}
+
+img {
+    max-width: 60%;
+    height: auto;
+    box-shadow: 10px 5px 5px red;
+}
